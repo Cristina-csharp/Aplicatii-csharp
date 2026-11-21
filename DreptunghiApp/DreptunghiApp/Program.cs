@@ -27,5 +27,7 @@ class Program
 
         Console.WriteLine($"Aria = {arie}");
         Console.WriteLine($"Perimetrul = {perimetru}");
+        double diagonala = Math.Sqrt(lungime * lungime + latime * latime);
+        Console.WriteLine($"Diagonala = {diagonala:F2}");
     }
 }
